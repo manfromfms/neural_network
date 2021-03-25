@@ -1,7 +1,7 @@
 var canv = document.getElementById('canv');
 var ctx = canv.getContext('2d');
 
-var nums = [2, 7, 7, 2];
+var nums = [2, 7, 7, 7, 2];
 var nn = new Neural(nums, 0.075, true, 1);
 
 var blueArr = [];
